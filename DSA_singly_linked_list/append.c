@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h>
+#include "node.c"
 
 /**
 * append - creates new node at the need of the last node

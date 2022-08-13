@@ -11,13 +11,12 @@ struct node
 {
 	int data;
 	struct node *link;
-}
+};
 
 int main()
 {
-	struct node *head = NULL;
+	struct node *head = NULL;;
 	
-	print_nodes(head);
 	append(&head, 6);
 	push(&head, 7);
 	print_nodes(head);
@@ -27,4 +26,4 @@ int main()
 	print_nodes(head);
 
 	return (0);
-}
+};

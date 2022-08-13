@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h>
+#include "node.c"
 
 /**
 * push - creates new node head pointer
@@ -15,6 +15,6 @@ int push(struct node **headptr, int newdata)
 	newheadptr->data = newdata;
 	newheadptr->link = (*headptr);
 
-	newheadptr = (*headptr);
+	*(headptr) = newheadptr;;
 	return (0);
-}
+};

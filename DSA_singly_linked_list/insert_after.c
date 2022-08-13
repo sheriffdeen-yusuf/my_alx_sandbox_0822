@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h>
+#include "node.c"
 
 /**
 * insert_after - creates new node after a specific node
